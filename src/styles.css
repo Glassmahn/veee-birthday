@@ -833,3 +833,28 @@ h2 {
     transition-duration: 0.01ms !important;
   }
 }
+
+
+/* Foldable birthday letter */
+.letter-toggle{
+  display:inline-flex;align-items:center;gap:24px;margin-top:18px;padding:13px 17px;
+  border:1px solid #a65f61;background:transparent;color:#743f46;
+  font:600 11px 'DM Sans',sans-serif;letter-spacing:.04em;transition:background .25s,color .25s,transform .25s;
+}
+.letter-toggle:hover{background:#a65f61;color:#fff;transform:translateY(-2px)}
+.letter-toggle-icon{font:20px/1 'DM Sans',sans-serif;transition:transform .35s}
+.letter-toggle[aria-expanded="true"] .letter-toggle-icon{transform:rotate(180deg)}
+.hidden-letter.letter-fold{
+  max-height:0;overflow:hidden;opacity:0;margin-top:0;padding-top:0;border-top:0;
+  transition:max-height .9s cubic-bezier(.2,.75,.25,1),opacity .45s ease,margin-top .45s ease,padding-top .45s ease;
+}
+.hidden-letter.letter-fold.is-open{
+  max-height:2200px;opacity:1;margin-top:35px;padding-top:25px;border-top:1px solid #cbb2a7;
+}
+@media(max-width:760px){
+  .letter-toggle{width:100%;justify-content:space-between}
+  .hidden-letter.letter-fold.is-open{margin-top:28px;padding-top:22px}
+}
+@media(prefers-reduced-motion:reduce){
+  .hidden-letter.letter-fold,.letter-toggle,.letter-toggle-icon{transition:none!important}
+}
