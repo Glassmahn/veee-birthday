@@ -137,11 +137,14 @@ app.innerHTML = `
           <p class="letter-preview">I could write a whole speech about how lovely you are, but let's not pretend you need more reasons to be feeling yourself...</p>
           <button class="outline-btn" id="reveal-letter">Okay, tell me more <span>↓</span></button>
           <div class="hidden-letter" id="hidden-letter" hidden>
-            <p>Happy birthday, Veee. ❤️</p>
-            <p>I hope this new year brings you the kind of happiness that sneaks up on you, the kind of wins you can hardly believe, and plenty of reasons to smile that ridiculously pretty smile.</p>
-            <p>And since we're being honest, I think you're rather lovely. A little too lovely, actually. You have this way of making me curious to know more about you, and I won't even pretend I'm not enjoying that.</p>
-            <p>So here's to you: your softness, your sparkle, your mischief, and all the beautiful things still waiting to find you.</p>
-            <p class="signoff">Enjoy your day, trouble.<br><em>Someone who thinks you're worth the extra effort. ♡</em></p>
+            <p>Happy 20th birthday, Veee. ❤️</p>
+            <p>Twenty. Look at you. A whole new decade, and somehow you have managed to arrive here looking like the kind of person people write paragraphs about. I was going to keep this short and act normal, but honestly, where is the fun in that?</p>
+            <p>There is something about you that is difficult to put into one neat sentence. Maybe it is the way your smile can hold someone's attention longer than it should. Maybe it is your presence, your little dose of mischief, or the way you seem to make being lovely look completely effortless. Whatever it is, you have a way of staying on someone's mind. And yes, I am speaking from experience.</p>
+            <p>I hope twenty is generous to you. I hope it brings you rooms you once only imagined entering, opportunities that recognise your worth, friendships that feel like home, and a kind of happiness you never have to question. I hope you become even more certain of yourself. I hope you take up space, ask for more, laugh loudly, love freely, and never make yourself smaller to make anyone else comfortable.</p>
+            <p>When life gets busy, when a day feels ordinary, or when you need a reminder that you are appreciated, I hope you find your way back to this little corner. Read it again. Smile at the compliments. Roll your eyes at the cheekiness. But please remember that someone took the time to make this because celebrating you felt worth doing properly.</p>
+            <p>And before I go, one last thing: twenty already? Look who's now an oldie. 😂 Don't worry, Veee. You're ageing ridiculously well. In fact, this whole growing-up thing seems to be working suspiciously in your favour.</p>
+            <p>Enjoy every second of your day, birthday girl. Keep being brilliant, keep being beautiful, and please do not become too well-behaved. A little trouble suits you.</p>
+            <p class="signoff">With sincere love, always proud to celebrate you,<br><strong>Ujamah</strong><br><em>Signed: Ujamah, with sincere love. ❤️</em></p>
           </div>
         </div>
         <div class="letter-flower">✳</div>
