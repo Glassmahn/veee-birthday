@@ -23,17 +23,17 @@ if (window.location.pathname !== '/birthday') {
           <div class="portal-photo-glint"></div>
         </div>
         <div class="portal-number">XX</div>
-        <span class="portal-star star-one" aria-hidden="true">❤️</span>
-        <span class="portal-star star-two" aria-hidden="true">✨</span>
-        <span class="portal-star star-three" aria-hidden="true">🥂</span>
+        <span class="portal-star star-one">✦</span>
+        <span class="portal-star star-two">✧</span>
+        <span class="portal-star star-three">✳</span>
         <span class="portal-caption caption-one">A RARE KIND OF PRETTY</span>
         <span class="portal-caption caption-two">MADE FOR VEEE · EST. 2006</span>
       </div>
       <div class="portal-bottom">
-        <p class="portal-eyebrow">A PRIVATE LITTLE WORLD, MADE FOR YOU</p>
+        <p class="portal-eyebrow">A LITTLE BIRTHDAY UNIVERSE</p>
         <h1>For <em>Veee.</em></h1>
-        <a class="portal-enter" href="/birthday">Open your birthday letter <span>→</span></a>
-        <p class="portal-footnote">MADE WITH CARE. SAVED FOR YOU TO RETURN TO.</p>
+        <a class="portal-enter" href="/birthday">Step inside <span>↗</span></a>
+        <p class="portal-footnote">P.S. TWENTY LOOKS A LITTLE TOO GOOD ON YOU.</p>
       </div>
     </main>
   `;
@@ -64,39 +64,40 @@ app.innerHTML = `
 
     <section class="hero hero-3d" id="top">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="eyebrow-line"></span> 19 NOVEMBER 2026 · A DAY WORTH CELEBRATING</p>
-        <p class="hero-kicker">TO SOMEONE WHO DESERVES TO BE CELEBRATED</p>
-        <h1>Twenty.<br><em>And unforgettable.</em></h1>
-        <p class="hero-sub">A new chapter, a beautiful reason to celebrate, and a little reminder of how much you are appreciated.</p>
-        <button class="primary-btn" id="open-surprise">Explore your birthday note <span>→</span></button>
-        <p class="tiny-note">Thoughtfully put together, just for you.</p>
+        <p class="eyebrow"><span class="eyebrow-line"></span> A VERY VEEE KIND OF DAY</p>
+        <p class="hero-kicker">THE WORLD GOT LUCKY</p>
+        <h1>Twenty.<br><em>And trouble.</em></h1>
+        <p class="hero-sub">A little older, a lot more iconic.<br>Still making it very difficult to play it cool.</p>
+        <button class="primary-btn" id="open-surprise">Enter your birthday world <span>↗</span></button>
+        <p class="tiny-note">Made for Veee. Obviously.</p>
       </div>
       <div class="hero-art hero-stage" id="hero-stage">
         <div class="stage-glow"></div>
         <div class="stage-ring ring-back"></div>
         <div class="stage-ring ring-front"></div>
-        <div class="heart-3d" aria-hidden="true">❤️</div>
+        <div class="heart-3d" aria-hidden="true">♥</div>
         <div class="hero-photo-frame">
           <img src="https://i.ibb.co/jPcfZ6nH/aa3ed03d-f15c-4873-902f-c780b8a308c5.jpg" alt="Veee smiling" class="hero-photo">
-          <div class="photo-stamp">CHAPTER<br><strong>20</strong><br>LOOKS GOOD</div>
+          <div class="photo-stamp">20<br>LOOKING<br>GOOD <span>✳</span></div>
         </div>
-        <div class="floating-tag tag-top">A FACE WORTH REMEMBERING</div>
-        <div class="floating-tag tag-bottom">A LITTLE EXTRA LOVELY</div>
+        <div class="floating-tag tag-top">THE MAIN CHARACTER</div>
+        <div class="floating-tag tag-bottom">PRETTY. AND SHE KNOWS IT.</div>
+        <span class="spark spark-a">✳</span><span class="spark spark-b">✦</span>
       </div>
-      <div class="hero-bottom"><span>SCROLL A LITTLE</span><span>MADE WITH CARE · FOR VEEE</span></div>
+      <div class="hero-bottom"><span>SCROLL A LITTLE</span><span>♡ &nbsp; MADE WITH A LITTLE TOO MUCH THOUGHT</span></div>
     </section>
 
     <section class="birthday-strip">
       <div><span class="strip-label">THE DATE</span><strong>19<sup>TH</sup> NOVEMBER</strong></div>
       <p>Twenty already? Look who's now an oldie. 😂<br><em>Don't worry, Veee. You're ageing ridiculously well.</em></p>
-      <span class="strip-heart">❤️</span>
+      <span class="strip-heart">♥</span>
     </section>
 
     <section class="gallery-section section-pad" id="moments">
       <div class="section-heading">
         <p class="eyebrow">01 / EVIDENCE</p>
-        <h2>The many ways<br>you make an <em>impression.</em></h2>
-        <p class="section-intro">A small collection of moments worth keeping. Some people photograph well. You make it look effortless.</p>
+        <h2>Unfairly<br><em>pretty.</em></h2>
+        <p class="section-intro">I was going to play it cool. Then you went and looked like this.</p>
       </div>
       <div class="gallery-grid">
         <figure class="gallery-large">
@@ -107,68 +108,63 @@ app.innerHTML = `
           <div class="aside-quote">“Some people just have a face you want to look at for an unnecessarily long time.”</div>
           <figure class="gallery-small">
             <img src="https://i.ibb.co/jPcfZ6nH/aa3ed03d-f15c-4873-902f-c780b8a308c5.jpg" alt="A close-up portrait of Veee">
-            <figcaption>THAT SMILE. THAT FACE. THAT'S YOU.</figcaption>
+            <figcaption>AND THEN THERE'S THIS FACE. ♡</figcaption>
           </figure>
         </div>
       </div>
       <div class="gallery-more">
-        <figure><img src="https://i.ibb.co/8SJJmcq/e67482e3-6f77-4fd6-ae44-32caf9655233.jpg" alt="Another lovely Veee moment"><figcaption>ANOTHER REASON TO CELEBRATE YOU</figcaption></figure>
-        <figure><img src="https://i.ibb.co/nNHTfB1J/d6f141a0-999d-47dc-9df8-de6c1afff3a1.jpg" alt="One more Veee portrait"><figcaption>AND YES, YOU LOOK THIS GOOD.</figcaption></figure>
+        <figure><img src="https://i.ibb.co/8SJJmcq/e67482e3-6f77-4fd6-ae44-32caf9655233.jpg" alt="Another lovely Veee moment"><figcaption>THE BIRTHDAY GIRL, AGAIN. ♡</figcaption></figure>
+        <figure><img src="https://i.ibb.co/nNHTfB1J/d6f141a0-999d-47dc-9df8-de6c1afff3a1.jpg" alt="One more Veee portrait"><figcaption>YES, WE GET IT. YOU'RE PRETTY. 😌</figcaption></figure>
       </div>
     </section>
 
     <section class="tease-section section-pad">
-      <p class="eyebrow">02 / A FEW THINGS WORTH SAYING</p>
-      <h2>Some things about you<br>deserve to be <em>said.</em></h2>
+      <p class="eyebrow">02 / A FEW OBSERVATIONS</p>
+      <h2>Things you do<br>without even <em>trying.</em></h2>
       <div class="tease-cards">
-        <article class="tease-card"><span>01</span><div class="tease-icon">😊</div><h3>Your smile.</h3><p>It has a way of changing the mood in a room. Consider this an official compliment.</p></article>
-        <article class="tease-card"><span>02</span><div class="tease-icon">❤️</div><h3>Your presence.</h3><p>You have a way of making a moment feel a little less ordinary, simply by being in it.</p></article>
-        <article class="tease-card"><span>03</span><div class="tease-icon">😉</div><h3>Your kind of trouble.</h3><p>Equal parts charm and mischief. It would be unfair to pretend it goes unnoticed.</p></article>
+        <article class="tease-card"><span>01</span><div class="tease-icon">✳</div><h3>That smile.</h3><p>Honestly? A public distraction. Something should be done.</p></article>
+        <article class="tease-card"><span>02</span><div class="tease-icon">♡</div><h3>That energy.</h3><p>You make ordinary moments feel like they have a plot.</p></article>
+        <article class="tease-card"><span>03</span><div class="tease-icon">✦</div><h3>Being you.</h3><p>Effortlessly. Annoyingly. Very, very well.</p></article>
       </div>
     </section>
 
     <section class="letter-section section-pad" id="letter">
       <div class="letter-card">
-        <div class="letter-top"><span>A LETTER, JUST FOR YOU</span><span>03 / FROM UJAMAH</span></div>
+        <div class="letter-top"><span>PERSONAL. DO NOT FORWARD. 😉</span><span>03 / THE NOTE</span></div>
         <div class="letter-content">
           <p class="eyebrow">DEAR VEEE,</p>
-          <h2>Something I hope<br>you <em>remember.</em></h2>
-          <p class="letter-preview">Not just a birthday message. A little something to come back to whenever you need reminding of how special you are.</p>
-          <button class="letter-toggle" id="letter-toggle" type="button" aria-expanded="false" aria-controls="hidden-letter">
-            <span class="letter-toggle-label">Open your letter</span><span class="letter-toggle-icon" aria-hidden="true">+</span>
-          </button>
-          <div class="hidden-letter letter-fold" id="hidden-letter" aria-hidden="true">
-            <p>Happy 20th birthday, Veee. ❤️</p>
-            <p>Twenty. Look at you. A whole new decade, and somehow you have managed to arrive here looking like the kind of person people write paragraphs about. I was going to keep this short and act normal, but honestly, where is the fun in that?</p>
-            <p>There is something about you that is difficult to put into one neat sentence. Maybe it is the way your smile can hold someone's attention longer than it should. Maybe it is your presence, your little dose of mischief, or the way you seem to make being lovely look completely effortless. Whatever it is, you have a way of staying on someone's mind. And yes, I am speaking from experience.</p>
-            <p>I hope twenty is generous to you. I hope it brings you rooms you once only imagined entering, opportunities that recognise your worth, friendships that feel like home, and a kind of happiness you never have to question. I hope you become even more certain of yourself. I hope you take up space, ask for more, laugh loudly, love freely, and never make yourself smaller to make anyone else comfortable.</p>
-            <p>When life gets busy, when a day feels ordinary, or when you need a reminder that you are appreciated, I hope you find your way back to this little corner. Read it again. Smile at the compliments. Roll your eyes at the cheekiness. But please remember that someone took the time to make this because celebrating you felt worth doing properly.</p>
-            <p>And before I go, one last thing: twenty already? Look who's now an oldie. 😂 Don't worry, Veee. You're ageing ridiculously well. In fact, this whole growing-up thing seems to be working suspiciously in your favour.</p>
-            <p>Enjoy every second of your day, birthday girl. Keep being brilliant, keep being beautiful, and please do not become too well-behaved. A little trouble suits you.</p>
-            <p class="signoff">With sincere love, always proud to celebrate you,<br><strong>Ujamah</strong><br><em>Signed: Ujamah, with sincere love. ❤️</em></p>
+          <h2>A little birthday<br><em>confession.</em></h2>
+          <p class="letter-preview">I could write a whole speech about how lovely you are, but let's not pretend you need more reasons to be feeling yourself...</p>
+          <button class="outline-btn" id="reveal-letter">Okay, tell me more <span>↓</span></button>
+          <div class="hidden-letter" id="hidden-letter" hidden>
+            <p>Happy birthday, Veee. ❤️</p>
+            <p>I hope this new year brings you the kind of happiness that sneaks up on you, the kind of wins you can hardly believe, and plenty of reasons to smile that ridiculously pretty smile.</p>
+            <p>And since we're being honest, I think you're rather lovely. A little too lovely, actually. You have this way of making me curious to know more about you, and I won't even pretend I'm not enjoying that.</p>
+            <p>So here's to you: your softness, your sparkle, your mischief, and all the beautiful things still waiting to find you.</p>
+            <p class="signoff">Enjoy your day, trouble.<br><em>Someone who thinks you're worth the extra effort. ♡</em></p>
           </div>
         </div>
-        <div class="letter-flower">❤️</div>
+        <div class="letter-flower">✳</div>
       </div>
     </section>
 
     <section class="play-section section-pad">
-      <p class="eyebrow">04 / BEFORE YOU GO</p>
-      <h2>One last thing,<br><em>birthday girl.</em></h2>
-      <p class="play-copy">If you ever revisit this page, let it be a reminder: you are worth celebrating on the big days, the quiet days, and all the ordinary days in between.</p>
+      <p class="eyebrow">04 / A VERY IMPORTANT QUESTION</p>
+      <h2>So, birthday girl…<br><em>what's the verdict?</em></h2>
+      <p class="play-copy">Was this cute, or should I be embarrassed that I put this much effort into being charming?</p>
       <div class="choice-row">
-        <button class="choice-btn" data-choice="Cute. You did well.">I loved this. ❤️</button>
-        <button class="choice-btn" data-choice="You're still trouble.">You're still trouble. 😂</button>
+        <button class="choice-btn" data-choice="Cute. You did well.">Cute. You did well. ♡</button>
+        <button class="choice-btn" data-choice="You're still trouble.">You're still trouble. 😏</button>
       </div>
       <p class="choice-response" id="choice-response" aria-live="polite"></p>
     </section>
 
     <footer class="footer">
-      <div class="footer-star">❤️</div>
+      <div class="footer-star">✳</div>
       <p class="eyebrow">HAPPY 20TH BIRTHDAY, VEEE</p>
-      <h2>May life be as lovely<br>to you as you are <em>to others.</em></h2>
-      <p class="footer-date">19 NOVEMBER 2026 · MADE WITH SINCERE LOVE BY UJAMAH</p>
-      <span class="footer-heart">❤️</span>
+      <h2>Keep being<br><em>unforgettable.</em></h2>
+      <p class="footer-date">20 YEARS YOUNG · 19 NOVEMBER 2026 · WITH AFFECTION & A LITTLE MISCHIEF</p>
+      <span class="footer-heart">♡</span>
     </footer>
   </main>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
@@ -184,7 +180,7 @@ const showToast = (message: string) => {
 
 document.querySelector('#open-surprise')?.addEventListener('click', () => {
   document.querySelector('#moments')?.scrollIntoView({ behavior: 'smooth' });
-  showToast('A little reminder, made just for you. ❤️');
+  showToast('You have excellent taste in birthday surprises. ♡');
 });
 
 const heroStage = document.querySelector<HTMLElement>('#hero-stage');
@@ -201,18 +197,15 @@ heroStage?.addEventListener('pointerleave', () => {
   if (photo) photo.style.transform = '';
 });
 
-const letterToggle = document.querySelector<HTMLButtonElement>('#letter-toggle');
-const hiddenLetter = document.querySelector<HTMLDivElement>('#hidden-letter');
-
-letterToggle?.addEventListener('click', () => {
-  if (!hiddenLetter) return;
-  const opening = !hiddenLetter.classList.contains('is-open');
-  hiddenLetter.classList.toggle('is-open', opening);
-  hiddenLetter.setAttribute('aria-hidden', String(!opening));
-  letterToggle.setAttribute('aria-expanded', String(opening));
-  const label = letterToggle.querySelector<HTMLElement>('.letter-toggle-label');
-  if (label) label.textContent = opening ? 'Fold your letter' : 'Open your letter';
-  letterToggle.querySelector<HTMLElement>('.letter-toggle-icon')!.textContent = opening ? '−' : '+';
+document.querySelector('#reveal-letter')?.addEventListener('click', event => {
+  const button = event.currentTarget as HTMLButtonElement;
+  const letter = document.querySelector<HTMLDivElement>('#hidden-letter');
+  if (!letter) return;
+  const opening = letter.hidden;
+  letter.hidden = !opening;
+  button.innerHTML = opening
+    ? 'That was sweet, right? <span>↑</span>'
+    : 'Okay, tell me more <span>↓</span>';
 });
 
 document.querySelectorAll<HTMLButtonElement>('.choice-btn').forEach(button => {
