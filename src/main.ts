@@ -144,7 +144,7 @@ app.innerHTML = `
             <p>When life gets busy, when a day feels ordinary, or when you need a reminder that you are appreciated, I hope you find your way back to this little corner. Read it again. Smile at the compliments. Roll your eyes at the cheekiness. But please remember that someone took the time to make this because celebrating you felt worth doing properly.</p>
             <p>And before I go, one last thing: twenty already? Look who's now an oldie. 😂 Don't worry, Veee. You're ageing ridiculously well. In fact, this whole growing-up thing seems to be working suspiciously in your favour.</p>
             <p>Enjoy every second of your day, birthday girl. Keep being brilliant, keep being beautiful, and please do not become too well-behaved. A little trouble suits you.</p>
-            <p>And one more thing: don't get too used to me being away. I'll be back in three years — yes, THREE. 😂 Consider this your advance notice. Until then, try not to miss me too dramatically… although I won't blame you if you do.</p>
+            <p>And one more thing: I'd be back in 3yrs time. 😂</p>
             <p class="signoff">With sincere love, always proud to celebrate you,<br><strong>Ujamah</strong><br><em>Signed: Ujamah, with sincere love. ❤️</em></p>
           </div>
         </div>
