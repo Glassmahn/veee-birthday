@@ -124,7 +124,7 @@ app.innerHTML = `
       <div class="tease-cards">
         <article class="tease-card"><span>01</span><div class="tease-icon">✳</div><h3>That smile.</h3><p>Honestly? A public distraction. Something should be done.</p></article>
         <article class="tease-card"><span>02</span><div class="tease-icon">♡</div><h3>That energy.</h3><p>You make ordinary moments feel like they have a plot.</p></article>
-        <article class="tease-card"><span>03</span><div class="tease-icon">✦</div><h3>Being you.</h3><p>Effortlessly. Annoyingly. Very, very well.</p></article>
+        <article class="tease-card"><span>03</span><div class="tease-icon">✦</div><h3>Those eyes.</h3><p>Honestly, Veee. Those eyes deserve their own warning label. It is ridiculously easy to get lost in them.</p></article>
       </div>
     </section>
 
@@ -139,11 +139,12 @@ app.innerHTML = `
           <div class="hidden-letter" id="hidden-letter" hidden>
             <p>Happy 20th birthday, Veee. ❤️</p>
             <p>Twenty. Look at you. A whole new decade, and somehow you have managed to arrive here looking like the kind of person people write paragraphs about. I was going to keep this short and act normal, but honestly, where is the fun in that?</p>
-            <p>There is something about you that is difficult to put into one neat sentence. Maybe it is the way your smile can hold someone's attention longer than it should. Maybe it is your presence, your little dose of mischief, or the way you seem to make being lovely look completely effortless. Whatever it is, you have a way of staying on someone's mind. And yes, I am speaking from experience.</p>
+            <p>There is something about you that is difficult to put into one neat sentence. Maybe it is the way your smile can hold someone's attention longer than it should. Maybe it is your presence, your little dose of mischief, or the way you seem to make being lovely look completely effortless. And those eyes, Veee… honestly, they deserve a paragraph of their own. There is something ridiculously beautiful about them; the kind of eyes you can get lost in and then forget what you were about to say. Whatever it is, you have a way of staying on someone's mind. And yes, I am speaking from experience.</p>
             <p>I hope twenty is generous to you. I hope it brings you rooms you once only imagined entering, opportunities that recognise your worth, friendships that feel like home, and a kind of happiness you never have to question. I hope you become even more certain of yourself. I hope you take up space, ask for more, laugh loudly, love freely, and never make yourself smaller to make anyone else comfortable.</p>
             <p>When life gets busy, when a day feels ordinary, or when you need a reminder that you are appreciated, I hope you find your way back to this little corner. Read it again. Smile at the compliments. Roll your eyes at the cheekiness. But please remember that someone took the time to make this because celebrating you felt worth doing properly.</p>
             <p>And before I go, one last thing: twenty already? Look who's now an oldie. 😂 Don't worry, Veee. You're ageing ridiculously well. In fact, this whole growing-up thing seems to be working suspiciously in your favour.</p>
             <p>Enjoy every second of your day, birthday girl. Keep being brilliant, keep being beautiful, and please do not become too well-behaved. A little trouble suits you.</p>
+            <p>And one more thing: don't get too used to me being away. I'll be back in three years — yes, THREE. 😂 Consider this your advance notice. Until then, try not to miss me too dramatically… although I won't blame you if you do.</p>
             <p class="signoff">With sincere love, always proud to celebrate you,<br><strong>Ujamah</strong><br><em>Signed: Ujamah, with sincere love. ❤️</em></p>
           </div>
         </div>
