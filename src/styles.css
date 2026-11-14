@@ -945,3 +945,165 @@ h2 {
   .play-section { padding-top: 62px; padding-bottom: 62px; }
   .footer { padding: 62px 20px 48px; }
 }
+
+
+/* Landing page refinement: balanced composition, responsive 3D portrait */
+.portal {
+  min-height: 760px;
+  height: 100svh;
+  max-height: 980px;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  overflow: clip;
+  background:
+    radial-gradient(ellipse at 50% 44%, #653342 0%, #321b27 35%, #1b1018 72%, #130c12 100%);
+}
+.portal-top {
+  grid-row: 1;
+  padding: 25px clamp(22px, 6vw, 88px);
+}
+.portal-scene {
+  inset: 92px 0 168px;
+  perspective: 1450px;
+}
+.portal-aura {
+  width: min(58vw, 560px);
+  background: radial-gradient(circle, #e7a2a933 0%, #a3546822 44%, transparent 72%);
+}
+.portal-orbit-a {
+  width: min(58vw, 530px);
+  border-color: #e8b5a63d;
+  transform: rotateX(69deg) rotateZ(-22deg);
+}
+.portal-orbit-b {
+  width: min(48vw, 440px);
+  border-color: #f0c8ba33;
+  opacity: .38;
+  transform: rotateX(73deg) rotateZ(35deg);
+}
+.portal-heart {
+  font-size: clamp(112px, 14vw, 172px);
+  transform: translate3d(clamp(72px, 10vw, 128px), -92px, 82px) rotate(13deg);
+  text-shadow: 1px 1px #f2aeb0, 3px 3px #b65d70, 7px 9px #78394c, 15px 19px 30px #0009;
+}
+.portal-photo {
+  width: clamp(190px, 25vw, 292px);
+  height: clamp(260px, 35vw, 390px);
+  padding: 8px;
+  box-shadow: 0 28px 80px #0009, 0 0 0 1px #f5d8ce66, 0 0 44px #e8a0a022;
+}
+.portal-photo img {
+  object-position: center 32%;
+}
+.portal-number {
+  font-size: clamp(190px, 30vw, 360px);
+  color: #f4d6c910;
+}
+.portal-bottom {
+  grid-row: 3;
+  align-self: center;
+  padding: 0 20px 27px;
+}
+.portal-eyebrow {
+  margin-bottom: 8px;
+}
+.portal-bottom h1 {
+  font-size: clamp(48px, 6.4vw, 70px);
+  margin: 7px 0 17px;
+}
+.portal-enter {
+  min-width: 250px;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-color: #d9a39a99;
+  background: #ffffff0b;
+}
+.portal-footnote {
+  margin-top: 14px;
+}
+@media (max-width: 700px) {
+  .portal {
+    min-height: 720px;
+    max-height: none;
+    height: max(100svh, 720px);
+    grid-template-rows: 68px minmax(0, 1fr) auto;
+  }
+  .portal-top {
+    padding: 17px 7vw;
+    font-size: 9px;
+  }
+  .portal-top > span:first-child {
+    font-size: 27px;
+  }
+  .portal-scene {
+    inset: 82px 0 178px;
+    perspective: 1050px;
+  }
+  .portal-aura {
+    width: 88vw;
+  }
+  .portal-orbit-a {
+    width: 88vw;
+  }
+  .portal-orbit-b {
+    width: 74vw;
+  }
+  .portal-photo {
+    width: clamp(188px, 56vw, 238px);
+    height: clamp(260px, 72vw, 320px);
+    padding: 7px;
+  }
+  .portal-heart {
+    font-size: 112px;
+    transform: translate3d(76px, -78px, 60px) rotate(13deg);
+  }
+  .portal-number {
+    font-size: 48vw;
+  }
+  .portal-bottom {
+    padding: 0 18px 26px;
+  }
+  .portal-eyebrow {
+    font-size: 7px;
+    letter-spacing: .16em;
+    line-height: 1.6;
+  }
+  .portal-bottom h1 {
+    font-size: clamp(47px, 13vw, 60px);
+    margin: 7px 0 15px;
+  }
+  .portal-enter {
+    width: min(100%, 285px);
+    min-width: 0;
+    padding: 14px 17px;
+    font-size: 11px;
+  }
+  .portal-footnote {
+    font-size: 7px;
+    letter-spacing: .11em;
+    line-height: 1.6;
+  }
+}
+@media (max-height: 740px) and (min-width: 701px) {
+  .portal {
+    min-height: 680px;
+  }
+  .portal-scene {
+    inset: 78px 0 145px;
+  }
+  .portal-photo {
+    height: 300px;
+  }
+  .portal-heart {
+    font-size: 132px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .portal-photo,
+  .portal-heart,
+  .portal-aura,
+  .portal-orbit,
+  .portal-photo-glint,
+  .portal-star {
+    animation: none !important;
+  }
+}
