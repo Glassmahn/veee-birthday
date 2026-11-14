@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Explore the 3D birthday landing and continue to the gallery",
+    "sanity": true,
+    "viewport": "mobile",
+    "covers": ["3D birthday hero", "hero call to action", "gallery navigation", "mobile hero layout"],
+    "description": "Verifies the birthday landing hero is visible, its primary action navigates to the photo gallery, and the layout remains usable on mobile.",
+    "steps": ["Open the birthday site on mobile", "View the layered 3D hero and Veee portrait", "Select Enter your birthday world"],
+    "expected": "The 3D hero renders without horizontal overflow and the primary action scrolls to the photo gallery."
+  },
+  {
+    "name": "Reveal and hide the personal birthday letter",
+    "viewport": "desktop",
+    "covers": ["personal letter interaction", "expand and collapse content"],
+    "description": "Verifies the birthday letter can be expanded and collapsed without leaving the page.",
+    "steps": ["Scroll to the personal note section", "Select Okay, tell me more", "Select That was sweet, right?"],
+    "expected": "The full birthday letter appears after the first click and is hidden again after the second click."
+  },
+  {
+    "name": "Respond to the playful birthday question",
+    "viewport": "mobile",
+    "covers": ["interactive choice buttons", "visible response feedback"],
+    "description": "Verifies either playful answer produces a visible, matching response.",
+    "steps": ["Scroll to the birthday question", "Select You're still trouble", "Read the response beneath the buttons"],
+    "expected": "A playful follow-up message appears beneath the selected choices."
+  },
+  {
+    "name": "Keep the gallery and birthday letter readable on a narrow screen",
+    "viewport": "mobile",
+    "covers": ["responsive gallery layout", "responsive letter layout", "no horizontal overflow"],
+    "description": "Verifies the gallery, compliment cards, and personal letter remain readable on a narrow screen.",
+    "steps": ["Open the site at a mobile viewport", "Scroll through the gallery and compliment cards", "Open the personal letter"],
+    "expected": "Content stacks cleanly, images remain visible, and the page has no horizontal overflow."
+  }
+]
