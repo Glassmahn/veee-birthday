@@ -134,7 +134,10 @@ app.innerHTML = `
           <p class="eyebrow">DEAR VEEE,</p>
           <h2>Something I hope<br>you <em>remember.</em></h2>
           <p class="letter-preview">Not just a birthday message. A little something to come back to whenever you need reminding of how special you are.</p>
-          <div class="hidden-letter" id="hidden-letter">
+          <button class="letter-toggle" id="letter-toggle" type="button" aria-expanded="false" aria-controls="hidden-letter">
+            <span class="letter-toggle-label">Open your letter</span><span class="letter-toggle-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="hidden-letter letter-fold" id="hidden-letter" aria-hidden="true">
             <p>Happy 20th birthday, Veee. ❤️</p>
             <p>Twenty. Look at you. A whole new decade, and somehow you have managed to arrive here looking like the kind of person people write paragraphs about. I was going to keep this short and act normal, but honestly, where is the fun in that?</p>
             <p>There is something about you that is difficult to put into one neat sentence. Maybe it is the way your smile can hold someone's attention longer than it should. Maybe it is your presence, your little dose of mischief, or the way you seem to make being lovely look completely effortless. Whatever it is, you have a way of staying on someone's mind. And yes, I am speaking from experience.</p>
@@ -198,15 +201,18 @@ heroStage?.addEventListener('pointerleave', () => {
   if (photo) photo.style.transform = '';
 });
 
-document.querySelector('#reveal-letter')?.addEventListener('click', event => {
-  const button = event.currentTarget as HTMLButtonElement;
-  const letter = document.querySelector<HTMLDivElement>('#hidden-letter');
-  if (!letter) return;
-  const opening = letter.hidden;
-  letter.hidden = !opening;
-  button.innerHTML = opening
-    ? 'That was sweet, right? ❤️'
-    : 'Okay, tell me more ↓';
+const letterToggle = document.querySelector<HTMLButtonElement>('#letter-toggle');
+const hiddenLetter = document.querySelector<HTMLDivElement>('#hidden-letter');
+
+letterToggle?.addEventListener('click', () => {
+  if (!hiddenLetter) return;
+  const opening = !hiddenLetter.classList.contains('is-open');
+  hiddenLetter.classList.toggle('is-open', opening);
+  hiddenLetter.setAttribute('aria-hidden', String(!opening));
+  letterToggle.setAttribute('aria-expanded', String(opening));
+  const label = letterToggle.querySelector<HTMLElement>('.letter-toggle-label');
+  if (label) label.textContent = opening ? 'Fold your letter' : 'Open your letter';
+  letterToggle.querySelector<HTMLElement>('.letter-toggle-icon')!.textContent = opening ? '−' : '+';
 });
 
 document.querySelectorAll<HTMLButtonElement>('.choice-btn').forEach(button => {
