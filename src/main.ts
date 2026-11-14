@@ -23,9 +23,9 @@ if (window.location.pathname !== '/birthday') {
           <div class="portal-photo-glint"></div>
         </div>
         <div class="portal-number">XX</div>
-        <span class="portal-star star-one">❤️</span>
-        <span class="portal-star star-two">✨</span>
-        <span class="portal-star star-three">🥂</span>
+        <span class="portal-star star-one" aria-hidden="true">❤️</span>
+        <span class="portal-star star-two" aria-hidden="true">✨</span>
+        <span class="portal-star star-three" aria-hidden="true">🥂</span>
         <span class="portal-caption caption-one">A RARE KIND OF PRETTY</span>
         <span class="portal-caption caption-two">MADE FOR VEEE · EST. 2006</span>
       </div>
