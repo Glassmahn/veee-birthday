@@ -854,3 +854,94 @@ h2 {
 @media(prefers-reduced-motion:reduce){
   .hidden-letter.letter-fold,.letter-toggle,.letter-toggle-icon{transition:none!important}
 }
+
+
+/* Quiet spacing pass: keep the original character, remove visual competition */
+.portal-orbit-c,
+.portal-caption,
+.star-three { display: none; }
+.portal-orbit-a { opacity: .72; }
+.portal-orbit-b { opacity: .28; }
+.portal-heart {
+  font-size: clamp(110px, 16vw, 185px);
+  transform: translate3d(125px, -88px, 95px) rotate(13deg);
+}
+.portal-photo {
+  box-shadow: 0 28px 75px #0008, 0 0 34px #e8a0a033;
+}
+@media(max-width:700px) {
+  .portal-orbit-a { width: 82vw; }
+  .portal-orbit-b { width: 70vw; }
+  .portal-heart { font-size: 118px; transform: translate3d(78px, -82px, 70px) rotate(13deg); }
+  .star-two { display: none; }
+  .portal-scene { inset: 10% 0 20%; }
+}
+
+.hero-3d {
+  min-height: 650px;
+  padding-top: 58px;
+  padding-bottom: 58px;
+  column-gap: 5vw;
+}
+.hero-3d .hero-stage { height: 490px; }
+.hero-3d .stage-ring { opacity: .5; }
+.hero-3d .ring-back { opacity: .22; }
+.hero-3d .floating-tag,
+.hero-3d .spark { display: none; }
+.hero-3d .heart-3d { font-size: 150px; top: 7%; right: 9%; }
+.hero-3d .photo-stamp { right: -18px; bottom: 22px; }
+.hero-3d .hero-copy { max-width: 500px; }
+.hero-3d .hero-sub { max-width: 410px; }
+.birthday-strip { padding-top: 27px; padding-bottom: 27px; }
+.section-pad { padding-top: 88px; padding-bottom: 88px; }
+.section-heading { margin-bottom: 38px; }
+.gallery-grid { gap: 30px; }
+.gallery-aside { gap: 16px; }
+.aside-quote { padding: 12px 8px; font-size: 23px; }
+.gallery-more { gap: 18px; margin-top: 18px; }
+.gallery-large { height: 520px; }
+.gallery-small { height: 285px; }
+.gallery-more figure { height: 320px; }
+.tease-section h2 { margin-bottom: 42px; }
+.tease-cards { gap: 18px; }
+.tease-card { min-height: 220px; padding: 22px; }
+.tease-icon { margin: 14px 0; }
+.letter-card { max-width: 760px; padding: 34px 7%; }
+.letter-content { padding: 42px 0 34px; }
+.letter-flower { display: none; }
+.play-section { padding-top: 78px; padding-bottom: 78px; }
+.footer { padding-top: 72px; padding-bottom: 54px; }
+
+@media(max-width:760px) {
+  .hero-3d { padding: 48px 8vw 72px; gap: 0; }
+  .hero-3d .hero-stage { height: 340px; margin-top: 8px; }
+  .hero-3d .hero-photo-frame { width: 62%; height: 300px; }
+  .hero-3d .stage-ring { width: 270px; height: 270px; }
+  .hero-3d .ring-front { width: 245px; height: 245px; }
+  .hero-3d .heart-3d { font-size: 105px; top: 2%; right: 7%; }
+  .hero-3d .photo-stamp { right: -14px; bottom: 15px; padding: 11px 10px; }
+  .hero-kicker { margin: 14px 0 -5px; }
+  .hero-3d h1 { margin: 24px 0 20px; }
+  .hero-3d .hero-sub { margin-bottom: 22px; }
+  .birthday-strip { align-items: flex-start; }
+  .birthday-strip p { flex-basis: 100%; order: 3; margin: 0; }
+  .strip-heart { margin-left: auto; }
+  .section-pad { padding: 64px 8vw; }
+  .section-heading { margin-bottom: 28px; }
+  .gallery-grid { gap: 16px; }
+  .gallery-large { height: 390px; }
+  .gallery-aside { gap: 8px; }
+  .aside-quote { font-size: 17px; line-height: 1.35; }
+  .gallery-small { height: 210px; }
+  .gallery-more { gap: 10px; margin-top: 10px; }
+  .gallery-more figure { height: 205px; }
+  .tease-cards { gap: 12px; }
+  .tease-card { min-height: 0; padding: 18px; }
+  .tease-icon { margin: 10px 0; }
+  .tease-section h2 { margin-bottom: 28px; }
+  .letter-card { padding: 22px 7%; }
+  .letter-content { padding: 30px 0 24px; }
+  .letter-content h2 { font-size: 46px; }
+  .play-section { padding-top: 62px; padding-bottom: 62px; }
+  .footer { padding: 62px 20px 48px; }
+}
