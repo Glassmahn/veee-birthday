@@ -197,7 +197,8 @@ h2 em {
   box-shadow: 0 25px 90px #0008;
 }
 .hero-photo {
-  width: 100%;  height: 100%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center 35%;
   filter: saturate(0.83);
@@ -396,7 +397,8 @@ h2 {
 .gallery-small img {
   object-position: center 30%;
 }
-.gallery-small figcaption {  font-size: 8px;
+.gallery-small figcaption {
+  font-size: 8px;
 }
 .tease-section {
   background: #ead9cb;
@@ -595,7 +597,8 @@ h2 {
 .footer-heart {
   display: block;
   color: #d18c80;
-  font-size: 28px;  margin-top: 40px;
+  font-size: 28px;
+  margin-top: 40px;
 }
 .toast {
   position: fixed;
@@ -794,7 +797,8 @@ h2 {
   }
   .letter-content {
     padding: 40px 0;
-  }  .letter-content h2 {
+  }
+  .letter-content h2 {
     font-size: 52px;
   }
   .letter-preview,
@@ -827,283 +831,5 @@ h2 {
   *::after {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
-  }
-}
-
-
-/* Foldable birthday letter */
-.letter-toggle{
-  display:inline-flex;align-items:center;gap:24px;margin-top:18px;padding:13px 17px;
-  border:1px solid #a65f61;background:transparent;color:#743f46;
-  font:600 11px 'DM Sans',sans-serif;letter-spacing:.04em;transition:background .25s,color .25s,transform .25s;
-}
-.letter-toggle:hover{background:#a65f61;color:#fff;transform:translateY(-2px)}
-.letter-toggle-icon{font:20px/1 'DM Sans',sans-serif;transition:transform .35s}
-.letter-toggle[aria-expanded="true"] .letter-toggle-icon{transform:rotate(180deg)}
-.hidden-letter.letter-fold{
-  max-height:0;overflow:hidden;opacity:0;margin-top:0;padding-top:0;border-top:0;
-  transition:max-height .9s cubic-bezier(.2,.75,.25,1),opacity .45s ease,margin-top .45s ease,padding-top .45s ease;
-}
-.hidden-letter.letter-fold.is-open{
-  max-height:2200px;opacity:1;margin-top:35px;padding-top:25px;border-top:1px solid #cbb2a7;
-}
-@media(max-width:760px){
-  .letter-toggle{width:100%;justify-content:space-between}
-  .hidden-letter.letter-fold.is-open{margin-top:28px;padding-top:22px}
-}
-@media(prefers-reduced-motion:reduce){
-  .hidden-letter.letter-fold,.letter-toggle,.letter-toggle-icon{transition:none!important}
-}
-
-
-/* Quiet spacing pass: keep the original character, remove visual competition */
-.portal-orbit-c,
-.portal-caption,
-.star-three { display: none; }
-.portal-orbit-a { opacity: .72; }
-.portal-orbit-b { opacity: .28; }
-.portal-heart {
-  font-size: clamp(110px, 16vw, 185px);
-  transform: translate3d(125px, -88px, 95px) rotate(13deg);
-}
-.portal-photo {
-  box-shadow: 0 28px 75px #0008, 0 0 34px #e8a0a033;
-}
-@media(max-width:700px) {
-  .portal-orbit-a { width: 82vw; }
-  .portal-orbit-b { width: 70vw; }
-  .portal-heart { font-size: 118px; transform: translate3d(78px, -82px, 70px) rotate(13deg); }
-  .star-two { display: none; }
-  .portal-scene { inset: 10% 0 20%; }
-}
-
-.hero-3d {
-  min-height: 650px;
-  padding-top: 58px;
-  padding-bottom: 58px;
-  column-gap: 5vw;
-}
-.hero-3d .hero-stage { height: 490px; }
-.hero-3d .stage-ring { opacity: .5; }
-.hero-3d .ring-back { opacity: .22; }
-.hero-3d .floating-tag,
-.hero-3d .spark { display: none; }
-.hero-3d .heart-3d { font-size: 150px; top: 7%; right: 9%; }
-.hero-3d .photo-stamp { right: -18px; bottom: 22px; }
-.hero-3d .hero-copy { max-width: 500px; }
-.hero-3d .hero-sub { max-width: 410px; }
-.birthday-strip { padding-top: 27px; padding-bottom: 27px; }
-.section-pad { padding-top: 88px; padding-bottom: 88px; }
-.section-heading { margin-bottom: 38px; }
-.gallery-grid { gap: 30px; }
-.gallery-aside { gap: 16px; }
-.aside-quote { padding: 12px 8px; font-size: 23px; }
-.gallery-more { gap: 18px; margin-top: 18px; }
-.gallery-large { height: 520px; }
-.gallery-small { height: 285px; }
-.gallery-more figure { height: 320px; }
-.tease-section h2 { margin-bottom: 42px; }
-.tease-cards { gap: 18px; }
-.tease-card { min-height: 220px; padding: 22px; }
-.tease-icon { margin: 14px 0; }
-.letter-card { max-width: 760px; padding: 34px 7%; }
-.letter-content { padding: 42px 0 34px; }
-.letter-flower { display: none; }
-.play-section { padding-top: 78px; padding-bottom: 78px; }
-.footer { padding-top: 72px; padding-bottom: 54px; }
-
-@media(max-width:760px) {
-  .hero-3d { padding: 48px 8vw 72px; gap: 0; }
-  .hero-3d .hero-stage { height: 340px; margin-top: 8px; }
-  .hero-3d .hero-photo-frame { width: 62%; height: 300px; }
-  .hero-3d .stage-ring { width: 270px; height: 270px; }
-  .hero-3d .ring-front { width: 245px; height: 245px; }
-  .hero-3d .heart-3d { font-size: 105px; top: 2%; right: 7%; }
-  .hero-3d .photo-stamp { right: -14px; bottom: 15px; padding: 11px 10px; }
-  .hero-kicker { margin: 14px 0 -5px; }
-  .hero-3d h1 { margin: 24px 0 20px; }
-  .hero-3d .hero-sub { margin-bottom: 22px; }
-  .birthday-strip { align-items: flex-start; }
-  .birthday-strip p { flex-basis: 100%; order: 3; margin: 0; }
-  .strip-heart { margin-left: auto; }
-  .section-pad { padding: 64px 8vw; }
-  .section-heading { margin-bottom: 28px; }
-  .gallery-grid { gap: 16px; }
-  .gallery-large { height: 390px; }
-  .gallery-aside { gap: 8px; }
-  .aside-quote { font-size: 17px; line-height: 1.35; }
-  .gallery-small { height: 210px; }
-  .gallery-more { gap: 10px; margin-top: 10px; }
-  .gallery-more figure { height: 205px; }
-  .tease-cards { gap: 12px; }
-  .tease-card { min-height: 0; padding: 18px; }
-  .tease-icon { margin: 10px 0; }
-  .tease-section h2 { margin-bottom: 28px; }
-  .letter-card { padding: 22px 7%; }
-  .letter-content { padding: 30px 0 24px; }
-  .letter-content h2 { font-size: 46px; }
-  .play-section { padding-top: 62px; padding-bottom: 62px; }
-  .footer { padding: 62px 20px 48px; }
-}
-
-
-/* Landing page refinement: balanced composition, responsive 3D portrait */
-.portal {
-  min-height: 760px;
-  height: 100svh;
-  max-height: 980px;
-  grid-template-rows: auto minmax(0, 1fr) auto;
-  overflow: clip;
-  background:
-    radial-gradient(ellipse at 50% 44%, #653342 0%, #321b27 35%, #1b1018 72%, #130c12 100%);
-}
-.portal-top {
-  grid-row: 1;
-  padding: 25px clamp(22px, 6vw, 88px);
-}
-.portal-scene {
-  inset: 92px 0 168px;
-  perspective: 1450px;
-}
-.portal-aura {
-  width: min(58vw, 560px);
-  background: radial-gradient(circle, #e7a2a933 0%, #a3546822 44%, transparent 72%);
-}
-.portal-orbit-a {
-  width: min(58vw, 530px);
-  border-color: #e8b5a63d;
-  transform: rotateX(69deg) rotateZ(-22deg);
-}
-.portal-orbit-b {
-  width: min(48vw, 440px);
-  border-color: #f0c8ba33;
-  opacity: .38;
-  transform: rotateX(73deg) rotateZ(35deg);
-}
-.portal-heart {
-  font-size: clamp(112px, 14vw, 172px);
-  transform: translate3d(clamp(72px, 10vw, 128px), -92px, 82px) rotate(13deg);
-  text-shadow: 1px 1px #f2aeb0, 3px 3px #b65d70, 7px 9px #78394c, 15px 19px 30px #0009;
-}
-.portal-photo {
-  width: clamp(190px, 25vw, 292px);
-  height: clamp(260px, 35vw, 390px);
-  padding: 8px;
-  box-shadow: 0 28px 80px #0009, 0 0 0 1px #f5d8ce66, 0 0 44px #e8a0a022;
-}
-.portal-photo img {
-  object-position: center 32%;
-}
-.portal-number {
-  font-size: clamp(190px, 30vw, 360px);
-  color: #f4d6c910;
-}
-.portal-bottom {
-  grid-row: 3;
-  align-self: center;
-  padding: 0 20px 27px;
-}
-.portal-eyebrow {
-  margin-bottom: 8px;
-}
-.portal-bottom h1 {
-  font-size: clamp(48px, 6.4vw, 70px);
-  margin: 7px 0 17px;
-}
-.portal-enter {
-  min-width: 250px;
-  justify-content: space-between;
-  padding: 15px 20px;
-  border-color: #d9a39a99;
-  background: #ffffff0b;
-}
-.portal-footnote {
-  margin-top: 14px;
-}
-@media (max-width: 700px) {
-  .portal {
-    min-height: 720px;
-    max-height: none;
-    height: max(100svh, 720px);
-    grid-template-rows: 68px minmax(0, 1fr) auto;
-  }
-  .portal-top {
-    padding: 17px 7vw;
-    font-size: 9px;
-  }
-  .portal-top > span:first-child {
-    font-size: 27px;
-  }
-  .portal-scene {
-    inset: 82px 0 178px;
-    perspective: 1050px;
-  }
-  .portal-aura {
-    width: 88vw;
-  }
-  .portal-orbit-a {
-    width: 88vw;
-  }
-  .portal-orbit-b {
-    width: 74vw;
-  }
-  .portal-photo {
-    width: clamp(188px, 56vw, 238px);
-    height: clamp(260px, 72vw, 320px);
-    padding: 7px;
-  }
-  .portal-heart {
-    font-size: 112px;
-    transform: translate3d(76px, -78px, 60px) rotate(13deg);
-  }
-  .portal-number {
-    font-size: 48vw;
-  }
-  .portal-bottom {
-    padding: 0 18px 26px;
-  }
-  .portal-eyebrow {
-    font-size: 7px;
-    letter-spacing: .16em;
-    line-height: 1.6;
-  }
-  .portal-bottom h1 {
-    font-size: clamp(47px, 13vw, 60px);
-    margin: 7px 0 15px;
-  }
-  .portal-enter {
-    width: min(100%, 285px);
-    min-width: 0;
-    padding: 14px 17px;
-    font-size: 11px;
-  }
-  .portal-footnote {
-    font-size: 7px;
-    letter-spacing: .11em;
-    line-height: 1.6;
-  }
-}
-@media (max-height: 740px) and (min-width: 701px) {
-  .portal {
-    min-height: 680px;
-  }
-  .portal-scene {
-    inset: 78px 0 145px;
-  }
-  .portal-photo {
-    height: 300px;
-  }
-  .portal-heart {
-    font-size: 132px;
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  .portal-photo,
-  .portal-heart,
-  .portal-aura,
-  .portal-orbit,
-  .portal-photo-glint,
-  .portal-star {
-    animation: none !important;
   }
 }
