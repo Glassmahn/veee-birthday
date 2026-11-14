@@ -19,7 +19,7 @@ if (window.location.pathname !== '/birthday') {
         <div class="portal-orbit portal-orbit-c"></div>
         <div class="portal-heart" aria-hidden="true"><span>♥</span></div>
         <div class="portal-photo">
-          <img src="/resources/veee-photo-1.jpeg" alt="Veee">
+          <img src="https://i.ibb.co/jPcfZ6nH/aa3ed03d-f15c-4873-902f-c780b8a308c5.jpg" alt="Veee">
           <div class="portal-photo-glint"></div>
         </div>
         <div class="portal-number">XX</div>
@@ -77,7 +77,7 @@ app.innerHTML = `
         <div class="stage-ring ring-front"></div>
         <div class="heart-3d" aria-hidden="true">♥</div>
         <div class="hero-photo-frame">
-          <img src="/resources/veee-photo-1.jpeg" alt="Veee smiling" class="hero-photo">
+          <img src="https://i.ibb.co/jPcfZ6nH/aa3ed03d-f15c-4873-902f-c780b8a308c5.jpg" alt="Veee smiling" class="hero-photo">
           <div class="photo-stamp">20<br>LOOKING<br>GOOD <span>✳</span></div>
         </div>
         <div class="floating-tag tag-top">THE MAIN CHARACTER</div>
@@ -101,20 +101,20 @@ app.innerHTML = `
       </div>
       <div class="gallery-grid">
         <figure class="gallery-large">
-          <img src="/resources/veee-photo-2.jpeg" alt="Veee dressed beautifully outdoors">
+          <img src="https://i.ibb.co/zKzSxDR/cde34d54-fc5f-48d5-8a37-3ef2e6c1d300.jpg" alt="Veee dressed beautifully outdoors">
           <figcaption><span>THE LOOK</span><span>10/10. NO NOTES.</span></figcaption>
         </figure>
         <div class="gallery-aside">
           <div class="aside-quote">“Some people just have a face you want to look at for an unnecessarily long time.”</div>
           <figure class="gallery-small">
-            <img src="/resources/veee-photo-1.jpeg" alt="A close-up portrait of Veee">
+            <img src="https://i.ibb.co/jPcfZ6nH/aa3ed03d-f15c-4873-902f-c780b8a308c5.jpg" alt="A close-up portrait of Veee">
             <figcaption>AND THEN THERE'S THIS FACE. ♡</figcaption>
           </figure>
         </div>
       </div>
       <div class="gallery-more">
-        <figure><img src="/resources/veee-photo-3.jpeg" alt="Another lovely Veee moment"><figcaption>THE BIRTHDAY GIRL, AGAIN. ♡</figcaption></figure>
-        <figure><img src="/resources/veee-photo-4.jpeg" alt="One more Veee portrait"><figcaption>YES, WE GET IT. YOU'RE PRETTY. 😌</figcaption></figure>
+        <figure><img src="https://i.ibb.co/8SJJmcq/e67482e3-6f77-4fd6-ae44-32caf9655233.jpg" alt="Another lovely Veee moment"><figcaption>THE BIRTHDAY GIRL, AGAIN. ♡</figcaption></figure>
+        <figure><img src="https://i.ibb.co/nNHTfB1J/d6f141a0-999d-47dc-9df8-de6c1afff3a1.jpg" alt="One more Veee portrait"><figcaption>YES, WE GET IT. YOU'RE PRETTY. 😌</figcaption></figure>
       </div>
     </section>
 
